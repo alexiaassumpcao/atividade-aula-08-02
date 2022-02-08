@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
   res.send('hello world');
 });
 
-app.get('/resource-status', function(req, res) {
+app.get('/health', function(req, res) {
     res.send('OK').status(200);
   });
 
